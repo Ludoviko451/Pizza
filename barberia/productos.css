@@ -1,0 +1,52 @@
+
+main li{
+    width:  300px;
+    height: 400px;
+    border: 3px solid black;
+    margin: 20px ;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main li:hover{
+    border: 3px solid mediumslateblue;
+    cursor: pointer;
+
+    width: 350px;
+    height: 450px;
+    transition: 0.5s;
+}
+
+main li:active{
+    border: 3px solid goldenrod;
+    cursor: pointer;
+
+    width: 350px;
+    height: 450px;
+    transition: 0.5s;
+}
+
+.precio {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.productos li:hover h2 {
+    font-size: 33px;
+}
+
+

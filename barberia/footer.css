@@ -1,0 +1,13 @@
+footer{
+    background-image: url(./imagenes/bg.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}

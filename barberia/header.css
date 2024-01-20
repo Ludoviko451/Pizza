@@ -1,0 +1,51 @@
+header {
+    background-color: gray;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.categorias {
+    display: flex;
+    list-style: none;
+
+}
+
+.caja{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+li {
+    margin: 20px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: rgb(180, 149, 149);
+    border: 5px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+main img{
+    margin: 0 auto;
+}
+img {
+    margin-left: 20px;
+}
