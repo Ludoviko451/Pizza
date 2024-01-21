@@ -1,0 +1,76 @@
+p {
+    text-align: center;
+
+}
+#mision {
+    font-size: 20px;
+}
+strong em{
+    background-color: red;
+    border-radius:  20px;
+}
+
+body {
+    background-color: white;
+}
+
+.titulo-principal {
+    padding-left: 30px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: bisque;
+}
+.titulo-centralizado {
+    text-align: center;
+    height: 50px;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+
+.titulo-diferenciales{
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+#banner {
+    border-radius: 20px;
+    border: 5px solid black;
+    width: 100%;
+}
+
+.items{
+    font-style: italic;
+}
+
+.diferenciales {
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: wheat;
+    margin: 10px;
+}
+
+.descripcion{
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: wheat;
+    padding: 20px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagenDiferenciales{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 5px solid black;
+    background-color: white;
+
+
+}

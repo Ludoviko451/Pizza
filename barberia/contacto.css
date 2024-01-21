@@ -1,0 +1,113 @@
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    text-align: center;
+    font-weight: bold;
+}
+.campo {
+    width: 300px;
+    height: 40px;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.enviar {
+    background-color: yellow;
+    transition: 0.5s;
+    height: 30px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+
+.enviar:hover {
+    cursor: pointer;
+    transform: scale(1.4) ;
+    transition: 0.5;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.opcion {
+    border: 5px solid black;
+    margin: 20px;
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    cursor:pointer;
+
+}
+
+
+#opciones input[type=radio] {
+    display: none;
+  }
+  
+  #opciones label {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px;
+    background: #ffffff;
+    color: black;
+    width: calc(50% - 8px);
+    min-width: 100px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 20px;
+  }
+  
+  #opciones label:hover {
+    background: #EBBB67;
+  }
+  
+  #opciones input[type=radio]:checked + label {
+    background: green;
+    color: #FAFAFA;
+  }
+
+  .novedad {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px;
+  }
+
+.select{
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.horario {
+    margin-top: 20px;
+}
+
+table{
+  margin: 10px auto;
+}
+
+thead{
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+}
+
+td, th{
+  border: 1px solid black;
+  padding: 8px 15px;
+}
