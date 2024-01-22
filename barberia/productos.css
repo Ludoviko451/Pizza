@@ -50,3 +50,23 @@ main li:active{
 }
 
 
+@media screen and (max-width:480px){
+
+    .productos {
+        flex-direction: column;
+    }
+    h1 {
+        text-align: center;
+    }
+    .caja {
+        flex-direction: column;
+    }
+
+    header li{
+        margin: 0;
+        padding: 14px;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+}

@@ -111,3 +111,21 @@ td, th{
   border: 1px solid black;
   padding: 8px 15px;
 }
+
+@media screen and (max-width:480px){
+
+  h1 {
+      text-align: center;
+  }
+  .caja {
+      flex-direction: column;
+  }
+
+  header li{
+      margin: 0;
+      padding: 14px;
+  }
+  .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+      width: auto;
+  }
+}
