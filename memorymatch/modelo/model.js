@@ -1,8 +1,8 @@
 const images = {
-    'chaos': '/vista/imagenes/chaos.png',
-    'minecraft': '/vista/imagenes/minecraft.png',
-    'pog': '/vista/imagenes/pog.png',
-    'rammus': '/vista/imagenes/rammus.png'
+    'chaos': 'imagenes/chaos.png',
+    'minecraft': 'imagenes/minecraft.png',
+    'pog': 'imagenes/pog.png',
+    'rammus': 'imagenes/rammus.png'
 };
 
 document.addEventListener('DOMContentLoaded', function(){
