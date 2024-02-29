@@ -145,7 +145,7 @@ const juegoTerminado = (event, tiempo, username) => {
 
     // Redirigir después de un breve retraso
     setTimeout(() => {
-        window.location.href = 'memorymatch/vista/index.html';
+        window.location.href = 'index.html';
     }, 1000);
 }
 
