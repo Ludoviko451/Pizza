@@ -1,11 +1,11 @@
 const iniciarJuego = () =>{
  
 
-    window.location.href = "/vista/game.html"
+    window.location.href = "memorymatch/vista/game.html"
 }
 
 const verPuntuacion = () => {
     
-    window.location.href = "/vista/puntuacion.html"
+    window.location.href = "memorymatch/vista/puntuacion.html"
 }
 
